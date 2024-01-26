@@ -1,0 +1,110 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cbfed8;
+   position: fixed;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: rgb(2, 4, 55);
+  text-align: center;
+  padding: 14px 55px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #3c8604;
+color:white;}
+
+ul.topnav li a.active {background-color:#3c8604;
+color:white;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.about{
+  display: flex;
+  gap:3%;
+}
+.aline{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 45%;
+  height: 100%;
+  background-color: #e0ffe8;
+  border-radius: 15px;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-left: 2%;
+padding-right: 2%;
+gap:5%;
+ 
+ 
+}
+body{
+  background-color: #ffffff;
+}
+button{
+  border-radius: 12px;
+  box-shadow:4px 8px 6px #62b20b ;
+}
+button:hover{
+  
+}
+.catbtn{
+  display: flex;
+  padding-left: 11%;
+  gap:15%;
+ 
+}
+.catbtns{
+  padding-top: 5%;
+  display: flex;
+  padding-left: 11%;
+  gap:15%;
+  
+}
+button{
+  background-color: #ffffff;
+  border:2px solid #316f03;
+}
+.sec2{
+  background-color: #e0ffe8;
+  padding-bottom: 8%;
+  
+}
+.contact{
+display: flex;
+gap:5%;
+}
+.form{
+  padding-left: 2%;
+  width:70%;
+}
+#name{
+width: 400px;
+height:35px ;
+}
+#email{
+  width: 400px;
+height:35px ;
+}
+#textarea{
+width: 400px;
+height:100px ;
+}
+.footer{
+  background-color:rgb(226, 227, 228);
+  height: 170px;
+}

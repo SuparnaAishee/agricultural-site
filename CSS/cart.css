@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.price {
+  font-weight: bold;
+}

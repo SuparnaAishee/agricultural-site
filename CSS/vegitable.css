@@ -1,0 +1,84 @@
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cbfed8;
+   position: fixed;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: rgb(2, 4, 55);
+  text-align: center;
+  padding: 14px 55px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #3c8604;
+color:white;}
+
+ul.topnav li a.active {background-color:#3c8604;
+color:white;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+.vegi{
+    box-shadow:4px 8px 6px #688c45 ;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+
+}
+.vegisec{
+    display: flex;
+    gap:6%;
+   
+}
+.vegisec2{
+    display: flex;
+    gap:6%;
+    padding-top: 5%;
+}
+.vegisec3{
+    display: flex;
+    gap:6%;
+    padding-top: 5%;
+}
+section{
+    padding-left: 7%;
+    padding-top: 7%;
+    padding-right: 7%;
+}
+h3{
+  text-align: center;
+  color:rgb(3, 115, 81);
+}
+p{
+  text-align: center;
+}
+.button{
+  width:120px;height:50px;border-radius: 8px;background-color:#95cb6c; color:white;font-size: 15px;font-weight: bold;border:unset;
+
+}
+.btn{
+  padding-left: 25%;
+  padding-bottom: 7%;
+}
+section{
+  background-color: #e0ffe8;
+}
+a{
+  text-decoration: none;
+  color:rgb(2, 89, 63);
+}
